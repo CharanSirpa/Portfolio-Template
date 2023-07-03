@@ -27,6 +27,8 @@ import {
   dcc,
   kelhel,
   microverse,
+  payroll,
+  organisation
 } from '../assets';
 
 export const navLinks = [
@@ -34,10 +36,10 @@ export const navLinks = [
     id: 'about',
     title: 'About',
   },
-  {
-    id: 'projects',
-    title: 'Projects',
-  },
+  // {
+  //   id: 'projects',
+  //   title: 'Projects',
+  // },
   {
     id: 'contact',
     title: 'Contact',
@@ -46,20 +48,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Frontend Developer',
+    title: 'Audit & Assurance',
     icon: frontend,
   },
   {
-    title: 'Backend Developer',
+    title: 'Income Tax',
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Goods and Service Tax(GST)',
     icon: ux,
   },
   {
-    title: 'Software Prototyping',
-    icon: prototyping,
+    title: 'Setting Up New Company',
+    icon: organisation,
+  },
+  {
+    title: 'Accounting And Payroll',
+    icon: payroll,
   },
 ];
 

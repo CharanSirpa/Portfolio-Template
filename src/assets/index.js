@@ -1,17 +1,19 @@
-import bwmap from './backgrounds/bw-map.jpeg';
+import bwmap from './backgrounds/dollar-banknotes-background.png';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
 
-import logo from './logo/logo-black.png';
-import logotext from './logo/logo-text-black.png';
+import logo from './logo/ca-logo.png';
+import logotext from './logo/Teja.png';
 
-import shaq from './personal/shaq.png';
+import shaq from './personal/Teja.png';
 
-import backend from './icons/backend.png';
-import ux from './icons/ux.png';
-import frontend from './icons/frontend.png';
+import backend from './icons/income.png';
+import GST from './icons/GST.png';
+import frontend from './icons/Audit.png';
 import prototyping from './icons/prototyping.png';
+import payroll from './icons/payroll.png';
+import organisation from './icons/organisation.png';
 import github from './icons/github.png';
 import close from './icons/close.png';
 import download from './icons/download.png';
@@ -59,7 +61,7 @@ export {
   logotext,
   shaq,
   backend,
-  ux,
+  GST as ux,
   frontend,
   prototyping,
   github,
@@ -96,4 +98,6 @@ export {
   dcc,
   kelhel,
   microverse,
+  payroll,
+  organisation
 };
