@@ -16,11 +16,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-       - name: Debug Git
+      - name: Debug Git
         run: |
           pwd
           git status
-          
           
       - name: Build
         run: npm run build
