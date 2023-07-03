@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Debug Git
+        run: |
+          pwd
+          git status
+          
       - name: Checkout code
         uses: actions/checkout@v2
 
