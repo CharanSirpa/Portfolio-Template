@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - teja # Change this to the branch you want to deploy from
+      - teja 
 
 jobs:
   deploy:
@@ -28,4 +28,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           branch: gh-pages
-          folder: dist # Change this if your build output folder is different
+          folder: dist 
